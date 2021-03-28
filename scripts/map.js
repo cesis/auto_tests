@@ -915,9 +915,9 @@ $(window).on('load', function() {
       credit += ' | ';
     }
 
-    credit += 'Skatīt';
+    credit += 'Kods';
     if (getSetting('_codeCredit')) credit += ' by ' + getSetting('_codeCredit');
-    credit += ' with ';
+    credit += ' no ';
     $('.leaflet-control-attribution')[0].innerHTML = credit + attributionHTML;
   }
 
